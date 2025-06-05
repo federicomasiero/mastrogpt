@@ -3,5 +3,5 @@ sys.path.append("packages/masiero/reverse")
 import reverse
 
 def test_reverse():
-    res = reverse.reverse({})
-    assert res["output"] == "reverse"
+    res = reverse.reverse({"input": "CIAO"})
+    assert res["output"] == "OAIC"
